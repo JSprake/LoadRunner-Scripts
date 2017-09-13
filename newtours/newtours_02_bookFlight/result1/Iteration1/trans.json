@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "a01_Home",
+        "rawStartTime": 1470756077908,
+        "rawEndTime": 1470756079097
+    },
+    {
+        "transactionName": "a02_Login",
+        "rawStartTime": 1470756085027,
+        "rawEndTime": 1470756087082
+    },
+    {
+        "transactionName": "b1s01_FlightSearch",
+        "rawStartTime": 1470756091660,
+        "rawEndTime": 1470756092685
+    },
+    {
+        "transactionName": "b1s02_FlightSelect",
+        "rawStartTime": 1470756097822,
+        "rawEndTime": 1470756098806
+    },
+    {
+        "transactionName": "b1s03_FlightBook",
+        "rawStartTime": 1470756104213,
+        "rawEndTime": 1470756105050
+    },
+    {
+        "transactionName": "z01_SignOff",
+        "rawStartTime": 1470756109553,
+        "rawEndTime": 1470756110774
+    }
+]

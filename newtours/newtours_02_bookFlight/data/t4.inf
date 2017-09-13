@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.html
+URL1=http://gtssl-ocsp.geotrust.com/
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_securitypack.txt
+URL2=https://javadl-esd-secure.oracle.com:8080/update/securitypack.jar
+[ProtocolInfo]
+ProtocolId=QTWeb

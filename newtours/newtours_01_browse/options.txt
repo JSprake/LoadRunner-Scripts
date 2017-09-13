@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\sprake\Documents\product info\demos\scripts\HP StormRunner\newtours\newtours_01_browse
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\sprake\documents\product info\demos\scripts\hp stormrunner\newtours\newtours_01_browse\\logfile.log
+c:\users\sprake\documents\product info\demos\scripts\hp stormrunner\newtours\newtours_01_browse\\combined_newtours_01_browse.c
+c:\users\sprake\documents\product info\demos\scripts\hp stormrunner\newtours\newtours_01_browse\\pre_cci.c
