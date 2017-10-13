@@ -1,0 +1,218 @@
+Virtual User Script started at: 10/13/2017 3:43:54 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "Z:\GitHub\LR-PC-SRL-Scripts.git\newtours_tps\nttps_02_bookFlight\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): lr_think_time: 0.91 seconds (recorded think time was 1.00 seconds).
+vuser_init.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(7): Notify: Transaction "a01_Home" started.
+vuser_init.c(9): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(9): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(9): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(9): web_url("newtours.demoaut.com") was successful, 15417 body bytes, 433 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(18): Notify: Transaction "a01_Home" ended with a "Pass" status (Duration: 1.0313 Wasted Time: 0.1176).
+vuser_init.c(20): lr_think_time: 0.77 seconds (recorded think time was 1.00 seconds).
+vuser_init.c(22): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(22): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(24): Notify: Transaction "a02_Login" started.
+vuser_init.c(26): web_submit_form("login.php") started  	[MsgId: MMSG-26355]
+vuser_init.c(26): Submitting form to "http://newtours.demoaut.com/login.php", Target Frame=""  	[MsgId: MMSG-27978]
+vuser_init.c(26): Redirecting "http://newtours.demoaut.com/login.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_init.c(26): To location "http://newtours.demoaut.com/mercuryreservation.php?osCsid=c442f5cfcbfeb9a42ef2a421e6fc6b52"  	[MsgId: MMSG-26693]
+vuser_init.c(26): Registered web_reg_find successful for "Text=<title>Find a Flight: Mercury Tours: </title>" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(26): Registered web_reg_find successful for "Text=Use our Flight Finder" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(26): web_submit_form("login.php") was successful, 14680 body bytes, 835 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(40): Notify: Transaction "a02_Login" ended with a "Pass" status (Duration: 30.9819 Wasted Time: 0.0190).
+vuser_init.c(42): lr_think_time: 0.84 seconds (recorded think time was 1.00 seconds).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): lr_think_time: 0.90 seconds (recorded think time was 1.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(10): Notify: Transaction "b1s01_FlightSearch" started.
+Action.c(12): web_submit_form("mercuryreservation2.php") started  	[MsgId: MMSG-26355]
+Action.c(12): Submitting form to "http://newtours.demoaut.com/mercuryreservation2.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(12): Notify: Saving Parameter "p_outFlight = Blue Skies Airlines$360$270$5:03".
+Action.c(12): Notify: Saving Parameter "p_inFlight = Blue Skies Airlines$630$270$12:23".
+Action.c(12): Registered web_reg_find successful for "Text=<title>Select a Flight: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): Registered web_reg_find successful for "Text=Select your departure" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): web_submit_form("mercuryreservation2.php") was successful, 19677 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "b1s01_FlightSearch" ended with a "Pass" status (Duration: 0.5307 Wasted Time: 0.0168).
+Action.c(31): lr_think_time: 0.90 seconds (recorded think time was 1.00 seconds).
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): Notify: Transaction "b1s02_FlightSelect" started.
+Action.c(37): web_submit_form("mercurypurchase.php") started  	[MsgId: MMSG-26355]
+Action.c(37): Notify: Parameter Substitution: parameter "p_outFlight" =  "Blue Skies Airlines$360$270$5:03"
+Action.c(37): Notify: Parameter Substitution: parameter "p_inFlight" =  "Blue Skies Airlines$630$270$12:23"
+Action.c(37): Submitting form to "http://newtours.demoaut.com/mercurypurchase.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(37): Registered web_reg_find successful for "Text=<title>Book a Flight: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): Registered web_reg_find successful for "Text=<input maxlength=60 name="passFirst0"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): web_submit_form("mercurypurchase.php") was successful, 41950 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(46): Notify: Transaction "b1s02_FlightSelect" ended with a "Pass" status (Duration: 0.6971 Wasted Time: 0.0207).
+Action.c(48): lr_think_time: 1.07 seconds (recorded think time was 1.00 seconds).
+Action.c(50): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(50): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(52): Notify: Transaction "b1s03_FlightBook" started.
+Action.c(54): web_submit_form("mercurypurchase2.php") started  	[MsgId: MMSG-26355]
+Action.c(54): Submitting form to "http://newtours.demoaut.com/mercurypurchase2.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(54): Registered web_reg_find successful for "Text=<title>Flight Confirmation: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(54): Registered web_reg_find successful for "Text=itinerary has been booked!" (count=1)  	[MsgId: MMSG-26364]
+Action.c(54): web_submit_form("mercurypurchase2.php") was successful, 13043 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(83): Notify: Transaction "b1s03_FlightBook" ended with a "Pass" status (Duration: 0.5243 Wasted Time: 0.0074).
+Action.c(85): lr_think_time: 1.22 seconds (recorded think time was 1.00 seconds).
+Action.c(87): Notify: Transaction "b1s04_BacktoFlights" started.
+Action.c(89): web_link("Flights") started  	[MsgId: MMSG-26355]
+Action.c(89): Linking to "http://newtours.demoaut.com/mercuryreservation.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(89): web_link("Flights") was successful, 14680 body bytes, 342 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(94): Notify: Transaction "b1s04_BacktoFlights" ended with a "Pass" status (Duration: 0.6513 Wasted Time: 0.0148).
+Action.c(96): lr_think_time: 0.76 seconds (recorded think time was 1.00 seconds).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(4): lr_think_time: 0.85 seconds (recorded think time was 1.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(10): Notify: Transaction "b1s01_FlightSearch" started.
+Action.c(12): web_submit_form("mercuryreservation2.php") started  	[MsgId: MMSG-26355]
+Action.c(12): Submitting form to "http://newtours.demoaut.com/mercuryreservation2.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(12): Notify: Saving Parameter "p_outFlight = Blue Skies Airlines$360$270$5:03".
+Action.c(12): Notify: Saving Parameter "p_inFlight = Blue Skies Airlines$630$270$12:23".
+Action.c(12): Registered web_reg_find successful for "Text=<title>Select a Flight: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): Registered web_reg_find successful for "Text=Select your departure" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): web_submit_form("mercuryreservation2.php") was successful, 19677 body bytes, 342 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "b1s01_FlightSearch" ended with a "Pass" status (Duration: 0.5018 Wasted Time: 0.0208).
+Action.c(31): lr_think_time: 0.89 seconds (recorded think time was 1.00 seconds).
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): Notify: Transaction "b1s02_FlightSelect" started.
+Action.c(37): web_submit_form("mercurypurchase.php") started  	[MsgId: MMSG-26355]
+Action.c(37): Notify: Parameter Substitution: parameter "p_outFlight" =  "Blue Skies Airlines$360$270$5:03"
+Action.c(37): Notify: Parameter Substitution: parameter "p_inFlight" =  "Blue Skies Airlines$630$270$12:23"
+Action.c(37): Submitting form to "http://newtours.demoaut.com/mercurypurchase.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(37): Registered web_reg_find successful for "Text=<title>Book a Flight: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): Registered web_reg_find successful for "Text=<input maxlength=60 name="passFirst0"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): web_submit_form("mercurypurchase.php") was successful, 41950 body bytes, 306 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(46): Notify: Transaction "b1s02_FlightSelect" ended with a "Pass" status (Duration: 0.6461 Wasted Time: 0.0134).
+Action.c(48): lr_think_time: 1.15 seconds (recorded think time was 1.00 seconds).
+Action.c(50): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(50): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(52): Notify: Transaction "b1s03_FlightBook" started.
+Action.c(54): web_submit_form("mercurypurchase2.php") started  	[MsgId: MMSG-26355]
+Action.c(54): Submitting form to "http://newtours.demoaut.com/mercurypurchase2.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(54): Registered web_reg_find successful for "Text=<title>Flight Confirmation: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(54): Registered web_reg_find successful for "Text=itinerary has been booked!" (count=1)  	[MsgId: MMSG-26364]
+Action.c(54): web_submit_form("mercurypurchase2.php") was successful, 13043 body bytes, 343 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(83): Notify: Transaction "b1s03_FlightBook" ended with a "Pass" status (Duration: 1.0960 Wasted Time: 0.0336).
+Action.c(85): lr_think_time: 0.81 seconds (recorded think time was 1.00 seconds).
+Action.c(87): Notify: Transaction "b1s04_BacktoFlights" started.
+Action.c(89): web_link("Flights") started  	[MsgId: MMSG-26355]
+Action.c(89): Linking to "http://newtours.demoaut.com/mercuryreservation.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(89): web_link("Flights") was successful, 14680 body bytes, 342 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(94): Notify: Transaction "b1s04_BacktoFlights" ended with a "Pass" status (Duration: 0.5632 Wasted Time: 0.0221).
+Action.c(96): lr_think_time: 1.08 seconds (recorded think time was 1.00 seconds).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(4): lr_think_time: 0.95 seconds (recorded think time was 1.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(10): Notify: Transaction "b1s01_FlightSearch" started.
+Action.c(12): web_submit_form("mercuryreservation2.php") started  	[MsgId: MMSG-26355]
+Action.c(12): Submitting form to "http://newtours.demoaut.com/mercuryreservation2.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(12): Notify: Saving Parameter "p_outFlight = Blue Skies Airlines$360$270$5:03".
+Action.c(12): Notify: Saving Parameter "p_inFlight = Blue Skies Airlines$630$270$12:23".
+Action.c(12): Registered web_reg_find successful for "Text=<title>Select a Flight: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): Registered web_reg_find successful for "Text=Select your departure" (count=1)  	[MsgId: MMSG-26364]
+Action.c(12): web_submit_form("mercuryreservation2.php") was successful, 19677 body bytes, 342 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(29): Notify: Transaction "b1s01_FlightSearch" ended with a "Pass" status (Duration: 0.5265 Wasted Time: 0.0257).
+Action.c(31): lr_think_time: 0.76 seconds (recorded think time was 1.00 seconds).
+Action.c(33): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(35): Notify: Transaction "b1s02_FlightSelect" started.
+Action.c(37): web_submit_form("mercurypurchase.php") started  	[MsgId: MMSG-26355]
+Action.c(37): Notify: Parameter Substitution: parameter "p_outFlight" =  "Blue Skies Airlines$360$270$5:03"
+Action.c(37): Notify: Parameter Substitution: parameter "p_inFlight" =  "Blue Skies Airlines$630$270$12:23"
+Action.c(37): Submitting form to "http://newtours.demoaut.com/mercurypurchase.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(37): Registered web_reg_find successful for "Text=<title>Book a Flight: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): Registered web_reg_find successful for "Text=<input maxlength=60 name="passFirst0"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(37): web_submit_form("mercurypurchase.php") was successful, 41950 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(46): Notify: Transaction "b1s02_FlightSelect" ended with a "Pass" status (Duration: 0.6823 Wasted Time: 0.0296).
+Action.c(48): lr_think_time: 1.03 seconds (recorded think time was 1.00 seconds).
+Action.c(50): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(50): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(51): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(52): Notify: Transaction "b1s03_FlightBook" started.
+Action.c(54): web_submit_form("mercurypurchase2.php") started  	[MsgId: MMSG-26355]
+Action.c(54): Submitting form to "http://newtours.demoaut.com/mercurypurchase2.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(54): Registered web_reg_find successful for "Text=<title>Flight Confirmation: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(54): Registered web_reg_find successful for "Text=itinerary has been booked!" (count=1)  	[MsgId: MMSG-26364]
+Action.c(54): web_submit_form("mercurypurchase2.php") was successful, 13043 body bytes, 342 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(83): Notify: Transaction "b1s03_FlightBook" ended with a "Pass" status (Duration: 0.5301 Wasted Time: 0.0149).
+Action.c(85): lr_think_time: 0.89 seconds (recorded think time was 1.00 seconds).
+Action.c(87): Notify: Transaction "b1s04_BacktoFlights" started.
+Action.c(89): web_link("Flights") started  	[MsgId: MMSG-26355]
+Action.c(89): Linking to "http://newtours.demoaut.com/mercuryreservation.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(89): web_link("Flights") was successful, 14680 body bytes, 342 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(94): Notify: Transaction "b1s04_BacktoFlights" ended with a "Pass" status (Duration: 0.6430 Wasted Time: 0.0354).
+Action.c(96): lr_think_time: 1.06 seconds (recorded think time was 1.00 seconds).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(3): lr_think_time: 0.76 seconds (recorded think time was 1.00 seconds).
+vuser_end.c(5): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_end.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_end.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_end.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_end.c(7): Notify: Transaction "z01_SignOff" started.
+vuser_end.c(9): web_link("SIGN-OFF") started  	[MsgId: MMSG-26355]
+vuser_end.c(9): Linking to "http://newtours.demoaut.com/mercurysignoff.php", Target Frame=""  	[MsgId: MMSG-27994]
+vuser_end.c(9): Redirecting "http://newtours.demoaut.com/mercurysignoff.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_end.c(9): To location "http://newtours.demoaut.com/mercurysignon.php"  	[MsgId: MMSG-26693]
+vuser_end.c(9): Registered web_reg_find successful for "Text=<title>Sign-on: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+vuser_end.c(9): Registered web_reg_find successful for "Text=<input maxlength=60 name="userName"" (count=1)  	[MsgId: MMSG-26364]
+vuser_end.c(9): web_link("SIGN-OFF") was successful, 8075 body bytes, 736 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_end.c(14): Notify: Transaction "z01_SignOff" ended with a "Pass" status (Duration: 0.7737 Wasted Time: 0.0365).
+vuser_end.c(16): lr_think_time: 1.14 seconds (recorded think time was 1.00 seconds).
+Ending action vuser_end.
+Vuser Terminated.

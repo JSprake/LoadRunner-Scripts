@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Submit Form: mercurypurchase.php
+Total=1
+FileName1=t4.html
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1507887872648
+RawStepName=mercurypurchase.php
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1507887872157
+URL1=http://newtours.demoaut.com/mercurypurchase.php

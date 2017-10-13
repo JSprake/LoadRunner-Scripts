@@ -1,0 +1,13 @@
+[t6]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Link: Flights
+Total=1
+FileName1=t6.html
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=1507887884293
+RawStepName=Flights
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1507887883949
+URL1=http://newtours.demoaut.com/mercuryreservation.php

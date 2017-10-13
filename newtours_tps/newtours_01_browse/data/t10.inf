@@ -1,0 +1,13 @@
+[t10]
+FileName1=t10.htm
+URL1=http://newtours.demoaut.com/mercurywelcome.php
+Total=2
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_10.xml
+FileName2=t10_btn_signin.gif
+URL2=http://newtours.demoaut.com/images/btn_signin.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

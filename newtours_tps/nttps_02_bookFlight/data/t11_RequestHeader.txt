@@ -1,0 +1,9 @@
+GET http://newtours.demoaut.com/ HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Host: newtours.demoaut.com
+Proxy-Connection: Keep-Alive
+

@@ -1,0 +1,129 @@
+Virtual User Script started at : 19/08/2016 11:51:49
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 for Windows 8.1; build 1203 (Aug 19 2016 19:13:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\sprake\Documents\product info\demos\scripts\HP StormRunner\newtours\newtours_01_browse\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(4): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/nav/logo.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/nav/html.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/nav/boxad1.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/banner2.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/black" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/featured_destination.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_specials.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/spacer.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_tips.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/tip93.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_findflight.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_right.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/btn_signin.gif?osCsid=f203cf02f0c3848d96bacc73c84eade2" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_destinations.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/icn_destinations.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_vacation.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/icn_vacations.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_register.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/icn_register.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_links.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/black"  	[MsgId: MWAR-26627]
+Action.c(10): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/images/spacer.gif"  	[MsgId: MWAR-26627]
+Action.c(10): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): web_url("newtours.demoaut.com") highest severity level was "warning", 59378 body bytes, 5189 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(19): Notify: Transaction "a01_Home" ended with a "Pass" status (Duration: 6.8331 Wasted Time: 0.1683).
+Action.c(21): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(21): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(24): Notify: Transaction "b2s01_Cruises" started.
+Action.c(26): web_link("Cruises") started  	[MsgId: MMSG-26355]
+Action.c(26): Linking to "http://newtours.demoaut.com/mercurycruise.php?osCsid=f203cf02f0c3848d96bacc73c84eade2", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(26): Resource "http://newtours.demoaut.com/images/nav/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): Resource "http://newtours.demoaut.com/images/nav/html.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): Resource "http://newtours.demoaut.com/images/nav/boxad1.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): Resource "http://newtours.demoaut.com/images/banner2.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(26): Found resource "http://newtours.demoaut.com/black" in HTML "http://newtours.demoaut.com/mercurycruise.php?osCsid=f203cf02f0c3848d96bacc73c84eade2"  	[MsgId: MMSG-26659]
+Action.c(26): Found resource "http://newtours.demoaut.com/images/masts/cruise_special.gif" in HTML "http://newtours.demoaut.com/mercurycruise.php?osCsid=f203cf02f0c3848d96bacc73c84eade2"  	[MsgId: MMSG-26659]
+Action.c(26): Found resource "http://newtours.demoaut.com/images/alaskan_cruise.gif" in HTML "http://newtours.demoaut.com/mercurycruise.php?osCsid=f203cf02f0c3848d96bacc73c84eade2"  	[MsgId: MMSG-26659]
+Action.c(26): Found resource "http://newtours.demoaut.com/images/reservation_open.gif" in HTML "http://newtours.demoaut.com/mercurycruise.php?osCsid=f203cf02f0c3848d96bacc73c84eade2"  	[MsgId: MMSG-26659]
+Action.c(26): Found resource "http://newtours.demoaut.com/images/spacer.gif" in HTML "http://newtours.demoaut.com/mercurycruise.php?osCsid=f203cf02f0c3848d96bacc73c84eade2"  	[MsgId: MMSG-26659]
+Action.c(26): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/black"  	[MsgId: MWAR-26627]
+Action.c(26): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/images/spacer.gif"  	[MsgId: MWAR-26627]
+Action.c(26): Registered web_reg_find successful for "Text=<title>Cruises: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(26): web_link("Cruises") highest severity level was "warning", 37456 body bytes, 1360 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(31): Notify: Transaction "b2s01_Cruises" ended with a "Pass" status (Duration: 0.6200 Wasted Time: 0.0035).
+Action.c(33): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(33): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): Notify: Transaction "b2s02_Support" started.
+Action.c(38): web_link("Hotels") started  	[MsgId: MMSG-26355]
+Action.c(38): Linking to "http://newtours.demoaut.com/mercuryunderconst.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(38): Resource "http://newtours.demoaut.com/images/nav/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(38): Resource "http://newtours.demoaut.com/images/nav/html.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(38): Resource "http://newtours.demoaut.com/images/nav/boxad1.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(38): Resource "http://newtours.demoaut.com/images/banner2.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(38): Found resource "http://newtours.demoaut.com/black" in HTML "http://newtours.demoaut.com/mercuryunderconst.php"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://newtours.demoaut.com/images/masts/mast_construction.gif" in HTML "http://newtours.demoaut.com/mercuryunderconst.php"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://newtours.demoaut.com/images/spacer.gif" in HTML "http://newtours.demoaut.com/mercuryunderconst.php"  	[MsgId: MMSG-26659]
+Action.c(38): Found resource "http://newtours.demoaut.com/images/forms/home.gif" in HTML "http://newtours.demoaut.com/mercuryunderconst.php"  	[MsgId: MMSG-26659]
+Action.c(38): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/black"  	[MsgId: MWAR-26627]
+Action.c(38): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/images/spacer.gif"  	[MsgId: MWAR-26627]
+Action.c(38): Registered web_reg_find successful for "Text=<title>Under Construction: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_link("Hotels") highest severity level was "warning", 9956 body bytes, 1228 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(43): Notify: Transaction "b2s02_Support" ended with a "Pass" status (Duration: 1.0335 Wasted Time: 0.0027).
+Action.c(45): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(45): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(48): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(49): Notify: Transaction "a03_BackHome" started.
+Action.c(51): web_link("Home") started  	[MsgId: MMSG-26355]
+Action.c(51): Linking to "http://newtours.demoaut.com/mercurywelcome.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(51): Resource "http://newtours.demoaut.com/images/nav/logo.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/nav/html.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/nav/boxad1.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/banner2.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Found resource "http://newtours.demoaut.com/black" in HTML "http://newtours.demoaut.com/mercurywelcome.php"  	[MsgId: MMSG-26659]
+Action.c(51): Resource "http://newtours.demoaut.com/images/featured_destination.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_specials.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Found resource "http://newtours.demoaut.com/images/spacer.gif" in HTML "http://newtours.demoaut.com/mercurywelcome.php"  	[MsgId: MMSG-26659]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_tips.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/tip93.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_findflight.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_right.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Found resource "http://newtours.demoaut.com/images/btn_signin.gif" in HTML "http://newtours.demoaut.com/mercurywelcome.php"  	[MsgId: MMSG-26659]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_destinations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/icn_destinations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_vacation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/icn_vacations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_register.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/icn_register.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Resource "http://newtours.demoaut.com/images/hdr_links.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(51): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/images/spacer.gif"  	[MsgId: MWAR-26627]
+Action.c(51): Warning -26627: HTTP Status-Code=404 (Not Found) for "http://newtours.demoaut.com/black"  	[MsgId: MWAR-26627]
+Action.c(51): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): web_link("Home") highest severity level was "warning", 16323 body bytes, 984 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(56): Notify: Transaction "a03_BackHome" ended with a "Pass" status (Duration: 0.5215 Wasted Time: 0.0034).
+Action.c(58): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(58): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

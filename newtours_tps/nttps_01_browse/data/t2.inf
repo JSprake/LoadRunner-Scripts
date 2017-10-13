@@ -1,0 +1,17 @@
+[t2]
+FileName1=t2.htm
+URL1=http://newtours.demoaut.com/mercurycruise.php?osCsid=a2b3616582b724e90bf71659202b767f
+Total=4
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_alaskan_cruise.gif
+URL2=http://newtours.demoaut.com/images/alaskan_cruise.gif
+FileName3=t2_cruise_special.gif
+URL3=http://newtours.demoaut.com/images/masts/cruise_special.gif
+FileName4=t2_reservation_open.gif
+URL4=http://newtours.demoaut.com/images/reservation_open.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

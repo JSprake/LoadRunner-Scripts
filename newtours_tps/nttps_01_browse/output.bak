@@ -1,0 +1,165 @@
+Virtual User Script started at: 10/13/2017 3:19:21 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Run-Time Settings file: "Z:\GitHub\LR-PC-SRL-Scripts.git\newtours_tps\nttps_01_browse\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(4): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): web_url("newtours.demoaut.com") was successful, 15417 body bytes, 433 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(19): Notify: Transaction "a01_Home" ended with a "Pass" status (Duration: 0.7330 Wasted Time: 0.1266).
+Action.c(21): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(21): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(24): Notify: Transaction "b2s01_Cruises" started.
+Action.c(26): web_link("Cruises") started  	[MsgId: MMSG-26355]
+Action.c(26): Linking to "http://newtours.demoaut.com/mercurycruise.php?osCsid=8f79cf82cb8e40a60fa4313fb6af0bee", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(26): Registered web_reg_find successful for "Text=<title>Cruises: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(26): web_link("Cruises") was successful, 14009 body bytes, 306 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(31): Notify: Transaction "b2s01_Cruises" ended with a "Pass" status (Duration: 0.4228 Wasted Time: 0.0310).
+Action.c(33): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(33): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): Notify: Transaction "b2s02_Support" started.
+Action.c(38): web_link("Hotels") started  	[MsgId: MMSG-26355]
+Action.c(38): Linking to "http://newtours.demoaut.com/mercuryunderconst.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(38): Registered web_reg_find successful for "Text=<title>Under Construction: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_link("Hotels") was successful, 7562 body bytes, 343 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(43): Notify: Transaction "b2s02_Support" ended with a "Pass" status (Duration: 0.5668 Wasted Time: 0.0109).
+Action.c(45): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(45): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(48): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(49): Notify: Transaction "a03_BackHome" started.
+Action.c(51): web_link("Home") started  	[MsgId: MMSG-26355]
+Action.c(51): Linking to "http://newtours.demoaut.com/mercurywelcome.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(51): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): web_link("Home") was successful, 15157 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(56): Notify: Transaction "a03_BackHome" ended with a "Pass" status (Duration: 0.6455 Wasted Time: 0.0188).
+Action.c(58): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(58): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(4): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(4): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): web_url("newtours.demoaut.com") was successful, 14739 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(19): Notify: Transaction "a01_Home" ended with a "Pass" status (Duration: 0.4385 Wasted Time: 0.0131).
+Action.c(21): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(21): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(24): Notify: Transaction "b2s01_Cruises" started.
+Action.c(26): web_link("Cruises") started  	[MsgId: MMSG-26355]
+Action.c(26): Linking to "http://newtours.demoaut.com/mercurycruise.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(26): Registered web_reg_find successful for "Text=<title>Cruises: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(26): web_link("Cruises") was successful, 14009 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(31): Notify: Transaction "b2s01_Cruises" ended with a "Pass" status (Duration: 0.4883 Wasted Time: 0.0143).
+Action.c(33): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(33): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): Notify: Transaction "b2s02_Support" started.
+Action.c(38): web_link("Hotels") started  	[MsgId: MMSG-26355]
+Action.c(38): Linking to "http://newtours.demoaut.com/mercuryunderconst.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(38): Registered web_reg_find successful for "Text=<title>Under Construction: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_link("Hotels") was successful, 7562 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(43): Notify: Transaction "b2s02_Support" ended with a "Pass" status (Duration: 0.3946 Wasted Time: 0.0119).
+Action.c(45): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(45): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(48): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(49): Notify: Transaction "a03_BackHome" started.
+Action.c(51): web_link("Home") started  	[MsgId: MMSG-26355]
+Action.c(51): Linking to "http://newtours.demoaut.com/mercurywelcome.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(51): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): web_link("Home") was successful, 15157 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(56): Notify: Transaction "a03_BackHome" ended with a "Pass" status (Duration: 0.5565 Wasted Time: 0.0389).
+Action.c(58): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(58): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(4): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(4): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(10): web_url("newtours.demoaut.com") was successful, 14739 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(19): Notify: Transaction "a01_Home" ended with a "Pass" status (Duration: 0.5190 Wasted Time: 0.0466).
+Action.c(21): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(21): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(23): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(24): Notify: Transaction "b2s01_Cruises" started.
+Action.c(26): web_link("Cruises") started  	[MsgId: MMSG-26355]
+Action.c(26): Linking to "http://newtours.demoaut.com/mercurycruise.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(26): Registered web_reg_find successful for "Text=<title>Cruises: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(26): web_link("Cruises") was successful, 14009 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(31): Notify: Transaction "b2s01_Cruises" ended with a "Pass" status (Duration: 0.5211 Wasted Time: 0.0193).
+Action.c(33): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(33): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): Notify: Transaction "b2s02_Support" started.
+Action.c(38): web_link("Hotels") started  	[MsgId: MMSG-26355]
+Action.c(38): Linking to "http://newtours.demoaut.com/mercuryunderconst.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(38): Registered web_reg_find successful for "Text=<title>Under Construction: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(38): web_link("Hotels") was successful, 7562 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(43): Notify: Transaction "b2s02_Support" ended with a "Pass" status (Duration: 0.3525 Wasted Time: 0.0170).
+Action.c(45): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(45): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Action.c(47): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(47): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(48): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(49): Notify: Transaction "a03_BackHome" started.
+Action.c(51): web_link("Home") started  	[MsgId: MMSG-26355]
+Action.c(51): Linking to "http://newtours.demoaut.com/mercurywelcome.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(51): Registered web_reg_find successful for "Text=<title>Welcome: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): Registered web_reg_find successful for "Text=<input type="text" name="userName"" (count=1)  	[MsgId: MMSG-26364]
+Action.c(51): web_link("Home") was successful, 15157 body bytes, 342 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(56): Notify: Transaction "a03_BackHome" ended with a "Pass" status (Duration: 0.5291 Wasted Time: 0.0429).
+Action.c(58): Think time - Waiting 1.00 seconds (according to limit).
+Action.c(58): lr_think_time: 1.00 seconds (recorded think time was 5.00 seconds).
+Ending action Action.
+Ending iteration 3.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

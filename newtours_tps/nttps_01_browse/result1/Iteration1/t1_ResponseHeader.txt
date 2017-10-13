@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 13 Oct 2017 09:26:25 GMT
+Server: Apache
+X-Powered-By: PHP/4.4.9
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Set-Cookie: osCsid=abee7b2522611923f98c77e79c5e4563; path=/; domain=newtours.demoaut.com
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+

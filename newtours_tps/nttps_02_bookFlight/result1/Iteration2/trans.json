@@ -1,0 +1,22 @@
+[
+    {
+        "transactionName": "b1s01_FlightSearch",
+        "rawStartTime": 1507887878354,
+        "rawEndTime": 1507887878856
+    },
+    {
+        "transactionName": "b1s02_FlightSelect",
+        "rawStartTime": 1507887879894,
+        "rawEndTime": 1507887880540
+    },
+    {
+        "transactionName": "b1s03_FlightBook",
+        "rawStartTime": 1507887881847,
+        "rawEndTime": 1507887882943
+    },
+    {
+        "transactionName": "b1s04_BacktoFlights",
+        "rawStartTime": 1507887883853,
+        "rawEndTime": 1507887884416
+    }
+]

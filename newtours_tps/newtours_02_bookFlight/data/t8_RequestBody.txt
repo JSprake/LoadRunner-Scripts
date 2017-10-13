@@ -1,0 +1,3 @@
+"fromPort=London&toPort=New+York&passCount=1&toDay=1&toMonth=7&fromDay=1&fromMonth=7&servClass="
+"First&outFlight=Blue+Skies+Airlines%24360%24270%245%3A03&inFlight=Blue+Skies+Airlines%24630%24"
+"270%2412%3A23&reserveFlights.x=55&reserveFlights.y=12"

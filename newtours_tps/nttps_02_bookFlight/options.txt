@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IZ:\GitHub\LR-PC-SRL-Scripts.git\newtours_tps\nttps_02_bookFlight
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ez:\github\lr-pc-srl-scripts.git\newtours_tps\nttps_02_bookflight\\logfile.log
+z:\github\lr-pc-srl-scripts.git\newtours_tps\nttps_02_bookflight\\combined_nttps_02_bookFlight.c
+z:\github\lr-pc-srl-scripts.git\newtours_tps\nttps_02_bookflight\\pre_cci.c
