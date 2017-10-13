@@ -1,8 +1,0 @@
-POST / HTTP/1.1
-Content-type: application/ocsp-request
-User-Agent: Mozilla/4.0 (Windows 7 6.1) Java/1.7.0_79
-Host: ocsp.verisign.com
-Accept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
-Connection: keep-alive
-Content-Length: 83
-

@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\sprake\Documents\product info\demos\scripts\HP StormRunner\newtours\02_bookFlight
--IC:\Program Files (x86)\HP\LoadRunner\include
--ec:\users\sprake\documents\product info\demos\scripts\hp stormrunner\newtours\02_bookflight\\logfile.log
-c:\users\sprake\documents\product info\demos\scripts\hp stormrunner\newtours\02_bookflight\\combined_02_bookFlight.c
-c:\users\sprake\documents\product info\demos\scripts\hp stormrunner\newtours\02_bookflight\\pre_cci.c

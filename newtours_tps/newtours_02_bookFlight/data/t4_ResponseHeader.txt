@@ -1,9 +1,0 @@
-HTTP/1.1 200 OK
-Server: nginx/1.4.7
-Content-Type: application/ocsp-response
-Content-Length: 5
-content-transfer-encoding: binary
-Date: Wed, 01 Jul 2015 15:54:52 GMT
-Proxy-Connection: Keep-Alive
-Connection: Keep-Alive
-

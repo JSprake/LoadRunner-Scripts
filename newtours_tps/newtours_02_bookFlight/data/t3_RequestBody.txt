@@ -1,2 +1,0 @@
-"tripType=roundtrip&passCount=1&fromPort=London&fromMonth=7&fromDay=1&toPort=New+York&toMonth=7"
-"&toDay=1&servClass=First&airline=No+Preference&findFlights.x=51&findFlights.y=12"
