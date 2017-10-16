@@ -1,0 +1,48 @@
+Notify: Failed to enable the Dynamic Filter API due to an incorrect version number, 12.53.0.374.	[MsgId: MMSG-56943]
+Notify: A Network Virtualization Emulation instance has been created.	[MsgId: MMSG-56967]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): lr_think_time: 3.79 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.	[MsgId: MMSG-16999]
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Error: Could not connect to Network Virtualization - onConnect function failed resulting in error=Unable to add a dynamic filter to the emulation. (NV 12.53.000.374 error 01004 at EMU-001-00844). Scenario will run without Network Virtualization.	[MsgId: MERR-56964]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/nav/logo.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Error: Could not connect to Network Virtualization - onConnect function failed resulting in error=Unable to add a dynamic filter to the emulation. (NV 12.53.000.374 error 01004 at EMU-001-00844). Scenario will run without Network Virtualization.	[MsgId: MERR-56964]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/featured_destination.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_specials.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/spacer.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/hdr_tips.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://newtours.demoaut.com/images/tip93.gif" in HTML "http://newtours.demoaut.com/"  	[MsgId: MMSG-26659]
+Action.c(10): Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(10): Notify: Transaction "a01_Home" ended with a "Stop" status (Duration: 0.4738).	[MsgId: MMSG-16873]
+Action.c(10): Error: Could not connect to Network Virtualization - onConnect function failed resulting in error=Unspecified exception. Scenario will run without Network Virtualization.	[MsgId: MERR-56964]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unspecified exception. Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,0 +1,2 @@
+"osCsid=707c1edf2f3926352b03692fb26d0ba8&action=process&userName=mercury&password=mercury&login"
+".x=0&login.y=0"

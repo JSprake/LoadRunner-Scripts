@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IZ:\GitHub\LR-PC-SRL-Scripts.git\newtours_tps\nttps_01_browse
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ez:\github\lr-pc-srl-scripts.git\newtours_tps\nttps_01_browse\\logfile.log
+z:\github\lr-pc-srl-scripts.git\newtours_tps\nttps_01_browse\\combined_nttps_01_browse.c
+z:\github\lr-pc-srl-scripts.git\newtours_tps\nttps_01_browse\\pre_cci.c

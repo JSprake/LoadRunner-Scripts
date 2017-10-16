@@ -1,0 +1,98 @@
+Notify: Failed to enable the Dynamic Filter API due to an incorrect version number, 12.53.0.374.	[MsgId: MMSG-56943]
+Notify: A Network Virtualization Emulation instance has been created.	[MsgId: MMSG-56967]
+Start auto log messages stack.	[MsgId: MMSG-10546]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Starting iteration 2.	[MsgId: MMSG-15968]
+Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unable to remove the dynamic filter from the emulation. (NV 12.53.000.374 error 01005 at EMU-001-00907). Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unable to remove the dynamic filter from the emulation. (NV 12.53.000.374 error 01005 at EMU-001-00907). Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(26): Registered web_reg_find successful for "Text=<title>Cruises: Mercury Tours</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(26): web_link("Cruises") highest severity level was "warning", 37456 body bytes, 1474 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26387]
+Action.c(31): Notify: Transaction "b2s01_Cruises" ended with a "Pass" status (Duration: 1.3856 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+Action.c(33): lr_think_time: 4.27 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(35): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(35): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(36): Notify: Transaction "b2s02_Support" started.	[MsgId: MMSG-16999]
+Action.c(38): web_link("Hotels") started  	[MsgId: MMSG-26355]
+Action.c(38): Linking to "http://newtours.demoaut.com/mercuryunderconst.php", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(38): Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(38): Notify: Transaction "b2s02_Support" ended with a "Stop" status (Duration: 0.0016).	[MsgId: MMSG-16873]
+Action.c(38): Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unspecified exception. Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unspecified exception. Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): lr_think_time: 6.14 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.	[MsgId: MMSG-16999]
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Action.c(10): Notify: Transaction "a01_Home" ended with a "Stop" status (Duration: 0.0019).	[MsgId: MMSG-16873]
+Action.c(10): Error: Could not connect to Network Virtualization - onConnect function failed resulting in error=Unspecified exception. Scenario will run without Network Virtualization.	[MsgId: MERR-56964]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unspecified exception. Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(4): lr_think_time: 5.97 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(8): Notify: Transaction "a01_Home" started.	[MsgId: MMSG-16999]
+Action.c(10): web_url("newtours.demoaut.com") started  	[MsgId: MMSG-26355]
+Action.c(10): Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Action.c(10): Notify: Transaction "a01_Home" ended with a "Stop" status (Duration: 0.0013).	[MsgId: MMSG-16873]
+Action.c(10): Error: Could not connect to Network Virtualization - onConnect function failed resulting in error=Unspecified exception. Scenario will run without Network Virtualization.	[MsgId: MERR-56964]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Abort was called from an action.	[MsgId: MMSG-10447]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Error: Network Virtualization has failed. The Network Virtualization service may have been restarted. Check the service and start the scenario again.	[MsgId: MERR-56961]
+Error: Could not disconnect from Network Virtualization -  onDisconnect function failed resulting in error=Unspecified exception. Scenario will continue to run with Network Virtualization.	[MsgId: MERR-56963]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

@@ -1,6 +1,6 @@
 vuser_init()
 {
-	lr_think_time(1);
+	lr_think_time(5);
 
 	web_reg_find("Text=<title>Welcome: Mercury Tours</title>", LAST);
 	web_reg_find("Text=<input type=\"text\" name=\"userName\"", LAST);
@@ -17,7 +17,7 @@ vuser_init()
 
 	lr_end_transaction("a01_Home", LR_AUTO);
 
-	lr_think_time(1);
+	lr_think_time(5);
 
 	web_reg_find("text=<title>Find a Flight: Mercury Tours: </title>", LAST);
 	web_reg_find("text=Use our Flight Finder", LAST);
@@ -39,7 +39,7 @@ vuser_init()
 
 	lr_end_transaction("a02_Login",LR_AUTO);
 
-	lr_think_time(1);
+	lr_think_time(5);
 
 	return 0;
 }

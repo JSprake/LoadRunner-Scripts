@@ -1,0 +1,11 @@
+GET http://newtours.demoaut.com/mercuryunderconst.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+Referer: http://newtours.demoaut.com/mercuryunderconst.php
+Accept-Language: en-GB
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+UA-CPU: AMD64
+Accept-Encoding: gzip, deflate
+Proxy-Connection: Keep-Alive
+Host: newtours.demoaut.com
+Cookie: osCsid=07e8a7db4830a2fe993d664249c2fa50
+

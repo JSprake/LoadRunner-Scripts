@@ -1,0 +1,20 @@
+[
+    {
+        "stepId": "STEP7",
+        "stepName": "Url: newtours.demoaut.com",
+        "infFile": "t1.inf",
+        "time": 1508159053081
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Link: Cruises",
+        "infFile": "t2.inf",
+        "time": 1508159054751
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Link: Home",
+        "infFile": "t3.inf",
+        "time": 1508159056388
+    }
+]

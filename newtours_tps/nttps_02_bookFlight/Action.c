@@ -1,7 +1,7 @@
 Action()
 {
 //	lr_set_debug_message(LR_MSG_CLASS_RESULT_DATA, LR_SWITCH_ON);
-	lr_think_time(1);
+	lr_think_time(5);
 
 	web_reg_find("text=<title>Select a Flight: Mercury Tours</title>", LAST);
 	web_reg_find("text=Select your departure", LAST);
@@ -28,7 +28,7 @@ Action()
 
 	lr_end_transaction("b02s01_FlightSearch",LR_AUTO);
 
-	lr_think_time(1);
+	lr_think_time(5);
 
 	web_reg_find("text=<title>Book a Flight: Mercury Tours</title>", LAST);
 	web_reg_find("text=<input maxlength=60 name=\"passFirst0\"", LAST);
@@ -45,7 +45,7 @@ Action()
 
 	lr_end_transaction("b02s02_FlightSelect",LR_AUTO);
 
-	lr_think_time(1);
+	lr_think_time(5);
 
 	web_reg_find("Text=<title>Flight Confirmation: Mercury Tours</title>", LAST);
 	web_reg_find("Text=itinerary has been booked!", LAST);
@@ -82,7 +82,7 @@ Action()
 
 	lr_end_transaction("b02s03_FlightBook",LR_AUTO);
 
-	lr_think_time(1);
+	lr_think_time(5);
 
 	lr_start_transaction("b02s04_BacktoFlights");
 
@@ -93,7 +93,7 @@ Action()
 
 	lr_end_transaction("b02s04_BacktoFlights",LR_AUTO);
 
-	lr_think_time(1);
+	lr_think_time(5);
 
 	return 0;
 }

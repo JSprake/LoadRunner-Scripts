@@ -1,0 +1,15 @@
+[t3]
+FileName1=t3.htm
+URL1=http://newtours.demoaut.com/mercuryunderconst.php
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_home.gif
+URL2=http://newtours.demoaut.com/images/forms/home.gif
+FileName3=t3_mast_construction.gif
+URL3=http://newtours.demoaut.com/images/masts/mast_construction.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

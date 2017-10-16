@@ -1,0 +1,26 @@
+[
+    {
+        "stepId": "STEP7",
+        "stepName": "Submit Form: mercuryreservation2.php",
+        "infFile": "t3.inf",
+        "time": 1508158043077
+    },
+    {
+        "stepId": "STEP8",
+        "stepName": "Submit Form: mercurypurchase.php",
+        "infFile": "t4.inf",
+        "time": 1508158048906
+    },
+    {
+        "stepId": "STEP9",
+        "stepName": "Submit Form: mercurypurchase2.php",
+        "infFile": "t5.inf",
+        "time": 1508158055594
+    },
+    {
+        "stepId": "STEP10",
+        "stepName": "Link: Flights",
+        "infFile": "t6.inf",
+        "time": 1508158061504
+    }
+]
