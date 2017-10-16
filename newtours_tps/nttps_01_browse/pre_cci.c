@@ -2618,26 +2618,50 @@ Action()
 	lr_think_time(1);
 
 	web_reg_find("Text=<title>Cruises: Mercury Tours</title>", "LAST");
-	lr_start_transaction("b2s01_Cruises");
+	lr_start_transaction("b01s01_Cruises");
 
 	web_link("Cruises", 
 		"Text=Cruises", 
 		"Snapshot=t7.inf", 
 		"LAST");
 
-	lr_end_transaction("b2s01_Cruises",2);
+	lr_end_transaction("b01s01_Cruises",2);
 
 	lr_think_time(1);
 
 	web_reg_find("Text=<title>Under Construction: Mercury Tours</title>", "LAST");
-	lr_start_transaction("b2s02_Support");
+	lr_start_transaction("b01s02_Hotels");
 
 	web_link("Hotels", 
 		"Text=Hotels", 
 		"Snapshot=t8.inf", 
 		"LAST");
 
-	lr_end_transaction("b2s02_Support",2);
+	lr_end_transaction("b01s02_Hotels",2);
+
+	lr_think_time(1);
+
+	web_reg_find("Text=<title>Under Construction: Mercury Tours</title>", "LAST");
+	lr_start_transaction("b01s03_CarRentals");
+
+	web_link("Car Rentals", 
+		"Text=Car Rentals", 
+		"Snapshot=t9.inf", 
+		"LAST");
+
+	lr_end_transaction("b01s03_CarRentals",2);
+
+	lr_think_time(1);
+
+	web_reg_find("Text=<title>Under Construction: Mercury Tours</title>", "LAST");
+	lr_start_transaction("b01s04_Support");
+
+	web_link("SUPPORT", 
+		"Text=SUPPORT", 
+		"Snapshot=t10.inf", 
+		"LAST");
+
+	lr_end_transaction("b01s04_Support",2);
 
 	lr_think_time(1);
 
@@ -2647,7 +2671,7 @@ Action()
 
 	web_link("Home", 
 		"Text=Home", 
-		"Snapshot=t10.inf", 
+		"Snapshot=t11.inf", 
 		"LAST");
 
 	lr_end_transaction("a03_BackHome",2);

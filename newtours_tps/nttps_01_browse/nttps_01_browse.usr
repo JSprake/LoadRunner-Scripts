@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="a01_Home__*delimiter*__b2s01_Cruises__*delimiter*__b2s02_Support__*delimiter*__a03_BackHome"
+Order="a01_Home__*delimiter*__b01s01_Cruises__*delimiter*__b01s02_Hotels__*delimiter*__a03_BackHome__*delimiter*__b01s04_Support__*delimiter*__b01s03_CarRentals"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -59,6 +59,8 @@ LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
 a01_Home=
-b2s01_Cruises=
-b2s02_Support=
+b01s01_Cruises=
+b01s02_Hotels=
 a03_BackHome=
+b01s04_Support=
+b01s03_CarRentals=

@@ -7,7 +7,7 @@ Action()
 	web_reg_find("text=Select your departure", LAST);
 	web_reg_save_param_ex("ParamName=p_outFlight", "LB=name=outFlight value=\"", "RB=\">", "Ordinal=1", LAST);
 	web_reg_save_param_ex("ParamName=p_inFlight", "LB=name=inFlight value=\"", "RB=\">", "Ordinal=1", LAST);
-	lr_start_transaction("b1s01_FlightSearch");
+	lr_start_transaction("b02s01_FlightSearch");
 
 	web_submit_form("mercuryreservation2.php", 
 		"Snapshot=t13.inf", 
@@ -26,13 +26,13 @@ Action()
 		"Name=findFlights.y", "Value=7", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("b1s01_FlightSearch",LR_AUTO);
+	lr_end_transaction("b02s01_FlightSearch",LR_AUTO);
 
 	lr_think_time(1);
 
 	web_reg_find("text=<title>Book a Flight: Mercury Tours</title>", LAST);
 	web_reg_find("text=<input maxlength=60 name=\"passFirst0\"", LAST);
-	lr_start_transaction("b1s02_FlightSelect");
+	lr_start_transaction("b02s02_FlightSelect");
 
 	web_submit_form("mercurypurchase.php", 
 		"Snapshot=t14.inf", 
@@ -43,13 +43,13 @@ Action()
 		"Name=reserveFlights.y", "Value=7", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("b1s02_FlightSelect",LR_AUTO);
+	lr_end_transaction("b02s02_FlightSelect",LR_AUTO);
 
 	lr_think_time(1);
 
 	web_reg_find("Text=<title>Flight Confirmation: Mercury Tours</title>", LAST);
 	web_reg_find("Text=itinerary has been booked!", LAST);
-	lr_start_transaction("b1s03_FlightBook");
+	lr_start_transaction("b02s03_FlightBook");
 
 	web_submit_form("mercurypurchase2.php", 
 		"Snapshot=t15.inf", 
@@ -80,18 +80,18 @@ Action()
 		"Name=buyFlights.y", "Value=9", ENDITEM, 
 		LAST);
 
-	lr_end_transaction("b1s03_FlightBook",LR_AUTO);
+	lr_end_transaction("b02s03_FlightBook",LR_AUTO);
 
 	lr_think_time(1);
 
-	lr_start_transaction("b1s04_BacktoFlights");
+	lr_start_transaction("b02s04_BacktoFlights");
 
 	web_link("Flights", 
 		"Text=Flights", 
 		"Snapshot=t16.inf", 
 		LAST);
 
-	lr_end_transaction("b1s04_BacktoFlights",LR_AUTO);
+	lr_end_transaction("b02s04_BacktoFlights",LR_AUTO);
 
 	lr_think_time(1);
 

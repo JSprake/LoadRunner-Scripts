@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="a01_Home__*delimiter*__a02_Login__*delimiter*__b1s01_FlightSearch__*delimiter*__b1s02_FlightSelect__*delimiter*__b1s03_FlightBook__*delimiter*__b1s04_BacktoFlights__*delimiter*__z01_SignOff"
+Order="a01_Home__*delimiter*__a02_Login__*delimiter*__b02s01_FlightSearch__*delimiter*__b02s03_FlightBook__*delimiter*__b02s02_FlightSelect__*delimiter*__b02s04_BacktoFlights__*delimiter*__z01_SignOff"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -60,8 +60,8 @@ ActiveRunName=result1
 [Transactions]
 a01_Home=
 a02_Login=
-b1s01_FlightSearch=
-b1s02_FlightSelect=
-b1s03_FlightBook=
-b1s04_BacktoFlights=
+b02s01_FlightSearch=
+b02s03_FlightBook=
+b02s02_FlightSelect=
+b02s04_BacktoFlights=
 z01_SignOff=
