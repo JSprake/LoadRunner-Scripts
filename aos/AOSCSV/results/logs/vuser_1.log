@@ -1,0 +1,31 @@
+[16:39:47.44] Info: Transaction '01_Home' started.
+[16:39:47.44] Info: WebRequest [Id: 1] 'http://www.advantageonlineshopping.com/#/' registered to send (sync).
+[16:39:47.44] Trace: Request 'http://www.advantageonlineshopping.com/#/': 
+GET / HTTP/1.1
+Host: www.advantageonlineshopping.com
+User-Agent: Go-http-client/1.1
+Connection: Keep-Alive
+Content-Type: text/plain
+Accept-Encoding: gzip
+
+
+[16:39:47.44] Debug: Request: GET 'http://www.advantageonlineshopping.com/#/' started.
+[16:39:47.57] Trace: Connected socket from 192.168.1.133:14930 to 34.228.54.91:80 in 86 ms.
+[16:39:47.66] Debug: Request: GET 'http://www.advantageonlineshopping.com/#/' done. Status 200 . HTTP/1.1
+[16:39:47.66] Trace: Response 'http://www.advantageonlineshopping.com/#/': 
+HTTP/1.1 200 
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Cache-Control: max-age=0
+Connection: keep-alive
+Content-Type: text/html
+Date: Wed, 16 Jan 2019 16:39:48 GMT
+Etag: W/"10441-1541670032000"
+Expires: Wed, 16 Jan 2019 16:39:48 GMT
+Last-Modified: Thu, 08 Nov 2018 09:40:32 GMT
+Server: nginx/1.12.2
+Vary: Accept-Encoding
+
+
+[16:39:47.66] Info: WebRequest [Id: 1] 'http://www.advantageonlineshopping.com/#/' completed. (1 request(s) sent, 10782 bytes downloaded)
+[16:39:47.67] Info: Transaction '01_Home' ended with a 'Passed' status (Duration: 231, ThinkTime: 0).

@@ -1,0 +1,7 @@
+METHOD,URL,HEADERS,PAYLOAD,TRANSACTION,THINKTIME
+GET,http://www.advantageonlineshopping.com/#/,"{ ""Content-Type"": "" text/plain"", ""Connection"": ""Keep-Alive"" }",,01_Home,3000
+GET,http://www.advantageonlineshopping.com/#/category/Laptops/1,"{ ""Content-Type"": "" text/plain"", ""Connection"": ""Keep-Alive"" }",,02_Laptops,3000
+GET,http://www.advantageonlineshopping.com/#/category/Headphones/2,"{ ""Content-Type"": "" text/plain"", ""Connection"": ""Keep-Alive"" }",,03_Headphones,3000
+GET,http://www.advantageonlineshopping.com/#/category/Tablets/3,"{ ""Content-Type"": "" text/plain"", ""Connection"": ""Keep-Alive"" }",,04_Tablets,3000
+GET,http://www.advantageonlineshopping.com/#/category/Speakers/4,"{ ""Content-Type"": "" text/plain"", ""Connection"": ""Keep-Alive"" }",,05_Speakers,3000
+GET,http://www.advantageonlineshopping.com/#/category/Mice/5,"{ ""Content-Type"": "" text/plain"", ""Connection"": ""Keep-Alive"" }",,06_Mice,3000

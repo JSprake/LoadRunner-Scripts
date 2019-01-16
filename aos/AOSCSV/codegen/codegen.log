@@ -1,0 +1,57 @@
+time="2019-01-16T16:38:47.418581" msg="Configured headers to filter: [Host Content-Length Cookie]"
+time="2019-01-16T16:38:47.419583" msg="Configured hosts black list: [.*google.* .*bing.*]"
+time="2019-01-16T16:38:47.419583" msg="Configured extensions to filter: [.ico]"
+time="2019-01-16T16:38:47.421589" msg="WebRequest [Id: 1] GET 'http://www.advantageonlineshopping.com/#/'"
+time="2019-01-16T16:38:47.421589" msg="Request 'http://www.advantageonlineshopping.com/#/'
+GET http://www.advantageonlineshopping.com/#/  
+Content-Type: " text/plain" 
+Connection: "Keep-Alive" 
+"
+time="2019-01-16T16:38:47.421589" msg="Response 'http://www.advantageonlineshopping.com/#/'
+ 000  
+"
+time="2019-01-16T16:38:47.423611" msg="WebRequest [Id: 2] GET 'http://www.advantageonlineshopping.com/#/category/Laptops/1'"
+time="2019-01-16T16:38:47.4256" msg="Request 'http://www.advantageonlineshopping.com/#/category/Laptops/1'
+GET http://www.advantageonlineshopping.com/#/category/Laptops/1  
+Content-Type: " text/plain" 
+Connection: "Keep-Alive" 
+"
+time="2019-01-16T16:38:47.4256" msg="Response 'http://www.advantageonlineshopping.com/#/category/Laptops/1'
+ 000  
+"
+time="2019-01-16T16:38:47.426614" msg="WebRequest [Id: 3] GET 'http://www.advantageonlineshopping.com/#/category/Headphones/2'"
+time="2019-01-16T16:38:47.426614" msg="Request 'http://www.advantageonlineshopping.com/#/category/Headphones/2'
+GET http://www.advantageonlineshopping.com/#/category/Headphones/2  
+Content-Type: " text/plain" 
+Connection: "Keep-Alive" 
+"
+time="2019-01-16T16:38:47.426614" msg="Response 'http://www.advantageonlineshopping.com/#/category/Headphones/2'
+ 000  
+"
+time="2019-01-16T16:38:47.428616" msg="WebRequest [Id: 4] GET 'http://www.advantageonlineshopping.com/#/category/Tablets/3'"
+time="2019-01-16T16:38:47.428616" msg="Request 'http://www.advantageonlineshopping.com/#/category/Tablets/3'
+GET http://www.advantageonlineshopping.com/#/category/Tablets/3  
+Connection: "Keep-Alive" 
+Content-Type: " text/plain" 
+"
+time="2019-01-16T16:38:47.428616" msg="Response 'http://www.advantageonlineshopping.com/#/category/Tablets/3'
+ 000  
+"
+time="2019-01-16T16:38:47.42961" msg="WebRequest [Id: 5] GET 'http://www.advantageonlineshopping.com/#/category/Speakers/4'"
+time="2019-01-16T16:38:47.42961" msg="Request 'http://www.advantageonlineshopping.com/#/category/Speakers/4'
+GET http://www.advantageonlineshopping.com/#/category/Speakers/4  
+Content-Type: " text/plain" 
+Connection: "Keep-Alive" 
+"
+time="2019-01-16T16:38:47.42961" msg="Response 'http://www.advantageonlineshopping.com/#/category/Speakers/4'
+ 000  
+"
+time="2019-01-16T16:38:47.431642" msg="WebRequest [Id: 6] GET 'http://www.advantageonlineshopping.com/#/category/Mice/5'"
+time="2019-01-16T16:38:47.431642" msg="Request 'http://www.advantageonlineshopping.com/#/category/Mice/5'
+GET http://www.advantageonlineshopping.com/#/category/Mice/5  
+Content-Type: " text/plain" 
+Connection: "Keep-Alive" 
+"
+time="2019-01-16T16:38:47.431642" msg="Response 'http://www.advantageonlineshopping.com/#/category/Mice/5'
+ 000  
+"

@@ -32,7 +32,7 @@ encryption:
 
 vuserLogger:                            #Configuration for Vuser logger
   maxBufferSize: 0                      #The maximum buffer size for each Vuser logger
-  logMode: error                         #Specify when to create the log file, the value should be one of "full, error, none"
+  logMode: full                         #Specify when to create the log file, the value should be one of "full, error, none"
   logLevel: trace                       #The log level for Vuser logger, the value should be one of "error, warning, info, debug, trace"
   showInConsole: true                   #If true, all the Vuser logging will be printed to the console (and the file)
 
