@@ -19,7 +19,7 @@ ssl:
   useHTTP2: false                       #Relevant only in case ignoreBadCertificate is true. If true, http2 client will be configured
 
 replay:
-  generateSnapshots: true               #If true, a snapshot file will be generated for each WebRequest
+  generateSnapshots: false               #If true, a snapshot file will be generated for each WebRequest
   useCache: false                       #If true, will cache resources response based on response headers
 
 vts:                                    #Configuration for VTS proxy server
@@ -33,6 +33,6 @@ encryption:
 vuserLogger:                            #Configuration for Vuser logger
   maxBufferSize: 0                      #The maximum buffer size for each Vuser logger
   logMode: error                         #Specify when to create the log file, the value should be one of "full, error, none"
-  logLevel: trace                       #The log level for Vuser logger, the value should be one of "error, warning, info, debug, trace"
+  logLevel: info                       #The log level for Vuser logger, the value should be one of "error, warning, info, debug, trace"
   showInConsole: true                   #If true, all the Vuser logging will be printed to the console (and the file)
 
