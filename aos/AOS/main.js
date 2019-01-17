@@ -105,13 +105,9 @@ load.action("Action", async function () {
         ],
     }).sendSync();
 
-    if (transaction01.update().duration < 5000){
-        transaction01.stop(load.TransactionStatus.Passed);
-    } else {
-        transaction01.stop(load.TransactionStatus.Failed);
-    }
+    transaction01.stop();
 
-    load.sleep(3);
+    load.thinkTime(3);
 
     const transaction02 = new load.Transaction("02_Laptops");
     transaction02.start();
