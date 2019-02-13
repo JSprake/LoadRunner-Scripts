@@ -105,6 +105,12 @@ load.action("Action", async function () {
         ],
     }).sendSync();
 
+    if (transaction01.update().duration < 3500) {
+        transaction01.stop(load.TransactionStatus.Passed);
+    } else {
+        transaction01.stop(load.TransactionStatus.Failed);
+    }
+
     transaction01.stop();
 
     load.thinkTime(3);
