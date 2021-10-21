@@ -1,0 +1,79 @@
+Virtual User Script started at : 2021-10-21 17:05:45
+TruClient Replay (build 0267) for LoadRunner Professional 2021.1.0, build 0351. OS: Windows 2019, Browser: Chromium 88.0.4324.150, initialized on 2021/10/21 at 17:05:45 (1634835945.903s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    NO proxy (direct connection to the Internet)
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\Users\demo\Documents\VuGen\Scripts\truclient_aos\\default.cfg"
+    Vuser directory.....................................: "C:\Users\demo\Documents\VuGen\Scripts\truclient_aos"
+    Vuser output directory..............................: "C:\Users\demo\Documents\VuGen\Scripts\truclient_aos"
+End of selected Run-Time Settings
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "a01_homeTC" started.
+t=00001010ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00003348ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_homeTC" ended with a "Pass" status (Duration: 2.3410 Wasted Time: 0.4900).
+t=00003354ms: Step 2: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS started    [MsgId: MMSG-205180]
+t=00004679ms: Step 2: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_categoryTC" started.
+t=00005183ms: Step 3: Click on Category  started    [MsgId: MMSG-205180]
+t=00005189ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous API TCA.getParam instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00006825ms: Step 3: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_categoryTC" ended with a "Pass" status (Duration: 1.6450 Wasted Time: 0.4980).
+t=00006830ms: Step 4: Verify FILTER BY's Visible Text contains FILTER BY: started    [MsgId: MMSG-205180]
+t=00007374ms: Step 4: Verify FILTER BY's Visible Text contains FILTER BY: successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_productTC" started.
+t=00007879ms: Step 5: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 33 [table  = p_product].
+t=00014537ms: Step 5: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_productTC" ended with a "Pass" status (Duration: 6.6620 Wasted Time: 0.6760).
+t=00014542ms: Step 6: Verify ADD TO CART's Visible Text contains ADD TO CART started    [MsgId: MMSG-205180]
+t=00014887ms: Step 6: Verify ADD TO CART's Visible Text contains ADD TO CART successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_homeCachedTC" started.
+t=00015378ms: Step 7: Click on dvantage link started    [MsgId: MMSG-205180]
+t=00015913ms: Step 7: Click on dvantage link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_homeCachedTC" ended with a "Pass" status (Duration: 0.5380 Wasted Time: 0.4620).
+t=00015917ms: Step 8: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS started    [MsgId: MMSG-205180]
+t=00016584ms: Step 8: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter p_category = 26 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '26'.
+Notify: Next row for parameter p_product = 26 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '26'.
+Notify: Transaction "a01_homeTC" started.
+t=00017476ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00019665ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_homeTC" ended with a "Pass" status (Duration: 2.1930 Wasted Time: 0.4880).
+t=00019671ms: Step 2: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS started    [MsgId: MMSG-205180]
+t=00021026ms: Step 2: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_categoryTC" started.
+t=00021513ms: Step 3: Click on Category  started    [MsgId: MMSG-205180]
+t=00023491ms: Step 3: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_categoryTC" ended with a "Pass" status (Duration: 1.9820 Wasted Time: 0.7730).
+t=00023496ms: Step 4: Verify FILTER BY's Visible Text contains FILTER BY: started    [MsgId: MMSG-205180]
+t=00024077ms: Step 4: Verify FILTER BY's Visible Text contains FILTER BY: successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_productTC" started.
+t=00024586ms: Step 5: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 26 [table  = p_product].
+t=00026477ms: Step 5: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_productTC" ended with a "Pass" status (Duration: 1.9030 Wasted Time: 0.7200).
+t=00026486ms: Step 6: Verify ADD TO CART's Visible Text contains ADD TO CART started    [MsgId: MMSG-205180]
+t=00026822ms: Step 6: Verify ADD TO CART's Visible Text contains ADD TO CART successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_homeCachedTC" started.
+t=00027329ms: Step 7: Click on dvantage link started    [MsgId: MMSG-205180]
+t=00027856ms: Step 7: Click on dvantage link successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_homeCachedTC" ended with a "Pass" status (Duration: 0.5340 Wasted Time: 0.4510).
+t=00027862ms: Step 8: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS started    [MsgId: MMSG-205180]
+t=00028506ms: Step 8: Verify OUR PRODUCTS's Visible Text contains OUR PRODUCTS successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 2.
+Ending Vuser...
+Vuser Terminated.

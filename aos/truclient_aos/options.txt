@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\demo\Documents\VuGen\Scripts\truclient_aos
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\demo\documents\vugen\scripts\truclient_aos\\logfile.log
+c:\users\demo\documents\vugen\scripts\truclient_aos\\combined_truclient_aos.c
+c:\users\demo\documents\vugen\scripts\truclient_aos\\pre_cci.c

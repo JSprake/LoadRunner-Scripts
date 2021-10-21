@@ -1,0 +1,496 @@
+Virtual User Script started at : 2021-10-21 15:42:50
+TruClient Replay (build 0267) for LoadRunner Professional 2021.1.0, build 0351. OS: Windows 2019, Browser: Chromium 88.0.4324.150, initialized on 2021/10/21 at 15:42:43 (1634830963.571s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    NO proxy (direct connection to the Internet)
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\Users\demo\Documents\VuGen\Scripts\truclient_aos\\default.cfg"
+    Vuser directory.....................................: "C:\Users\demo\AppData\Local\Temp\TC\Temp\"
+    Vuser output directory..............................: "C:\Users\demo\AppData\Local\Temp\TC\Temp\"
+End of selected Run-Time Settings
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "a01_home" started.
+t=00007379ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00009580ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.2300 Wasted Time: 0.8240).
+Notify: Transaction "a02_category" started.
+t=00010098ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00010098ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous API TCA.getParam instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00013988ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 3.9070 Wasted Time: 0.6800).
+Notify: Transaction "a03_product" started.
+t=00014511ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 1 [table  = p_product].
+t=00016633ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.1440 Wasted Time: 0.9970).
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter p_category = 2 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '2'.
+Notify: Next row for parameter p_product = 2 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '2'.
+Notify: Transaction "a01_home" started.
+t=00017461ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00019069ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 1.6260 Wasted Time: 0.3420).
+Notify: Transaction "a02_category" started.
+t=00019592ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00023282ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 3.7120 Wasted Time: 0.5340).
+Notify: Transaction "a03_product" started.
+t=00023806ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 2 [table  = p_product].
+t=00025817ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.0340 Wasted Time: 0.9670).
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter p_category = 3 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '3'.
+Notify: Next row for parameter p_product = 3 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '3'.
+Notify: Transaction "a01_home" started.
+t=00026666ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00029075ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.4300 Wasted Time: 0.4900).
+Notify: Transaction "a02_category" started.
+t=00029604ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00032277ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.7010 Wasted Time: 0.5170).
+Notify: Transaction "a03_product" started.
+t=00032795ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 3 [table  = p_product].
+t=00034843ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.0670 Wasted Time: 0.9690).
+Ending iteration 3.
+Starting iteration 4.
+Notify: Next row for parameter p_category = 4 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '4'.
+Notify: Next row for parameter p_product = 4 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '4'.
+Notify: Transaction "a01_home" started.
+t=00035666ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00037802ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.1560 Wasted Time: 0.4890).
+Notify: Transaction "a02_category" started.
+t=00038322ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00040932ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.6280 Wasted Time: 0.5250).
+Notify: Transaction "a03_product" started.
+t=00041450ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 4 [table  = p_product].
+t=00043455ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.0230 Wasted Time: 0.9480).
+Ending iteration 4.
+Starting iteration 5.
+Notify: Next row for parameter p_category = 5 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '5'.
+Notify: Next row for parameter p_product = 5 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '5'.
+Notify: Transaction "a01_home" started.
+t=00044317ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00046786ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.4970 Wasted Time: 0.4950).
+Notify: Transaction "a02_category" started.
+t=00047305ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00050078ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.7910 Wasted Time: 0.4880).
+Notify: Transaction "a03_product" started.
+t=00050597ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 5 [table  = p_product].
+t=00052997ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.4180 Wasted Time: 0.9570).
+Ending iteration 5.
+Starting iteration 6.
+Notify: Next row for parameter p_category = 6 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '6'.
+Notify: Next row for parameter p_product = 6 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '6'.
+Notify: Transaction "a01_home" started.
+t=00053838ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00055431ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 1.6110 Wasted Time: 0.3840).
+Notify: Transaction "a02_category" started.
+t=00055950ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00059688ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 3.7570 Wasted Time: 0.5250).
+Notify: Transaction "a03_product" started.
+t=00060207ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 6 [table  = p_product].
+t=00062401ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.2070 Wasted Time: 0.9870).
+Ending iteration 6.
+Starting iteration 7.
+Notify: Next row for parameter p_category = 7 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '7'.
+Notify: Next row for parameter p_product = 7 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '7'.
+Notify: Transaction "a01_home" started.
+t=00063206ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00065645ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.4560 Wasted Time: 0.4950).
+Notify: Transaction "a02_category" started.
+t=00066163ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00068857ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.7120 Wasted Time: 0.5040).
+Notify: Transaction "a03_product" started.
+t=00069386ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 7 [table  = p_product].
+t=00071478ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.1200 Wasted Time: 1.0470).
+Ending iteration 7.
+Starting iteration 8.
+Notify: Next row for parameter p_category = 8 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '8'.
+Notify: Next row for parameter p_product = 8 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '8'.
+Notify: Transaction "a01_home" started.
+t=00072319ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00074485ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.1840 Wasted Time: 0.5060).
+Notify: Transaction "a02_category" started.
+t=00075010ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00077700ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.7120 Wasted Time: 0.5220).
+Notify: Transaction "a03_product" started.
+t=00078227ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 8 [table  = p_product].
+t=00080341ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.1400 Wasted Time: 0.8170).
+Ending iteration 8.
+Starting iteration 9.
+Notify: Next row for parameter p_category = 9 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '9'.
+Notify: Next row for parameter p_product = 9 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '9'.
+Notify: Transaction "a01_home" started.
+t=00081161ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00083605ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.4630 Wasted Time: 0.4920).
+Notify: Transaction "a02_category" started.
+t=00084123ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00086757ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.6510 Wasted Time: 0.4930).
+Notify: Transaction "a03_product" started.
+t=00087280ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 9 [table  = p_product].
+t=00089328ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 2.0700 Wasted Time: 0.8470).
+Ending iteration 9.
+Starting iteration 10.
+Notify: Next row for parameter p_category = 10 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '10'.
+Notify: Next row for parameter p_product = 10 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '10'.
+Notify: Transaction "a01_home" started.
+t=00090169ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00092507ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.3560 Wasted Time: 0.4990).
+Notify: Transaction "a02_category" started.
+t=00093029ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00129647ms: Error -205177: Step 2: Click on Category  failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/css/images/category_banner_3.png;https://www.advantageonlineshopping.com/css/images/Filter.png;https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3100;https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3200;https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3300;       Snapshot Info [MSH 10 0]    [MsgId: MERR-205177]
+Notify: Transaction "a02_category" ended with a "Fail" status (Duration: 36.2930 Wasted Time: 0.3500).
+Notify: Transaction "a02_category" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a02_category" is "Error -205177: Step 2: Click on Category  failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/css/images/category_banner_3.png;https://www.advantageonlineshopping.com/css/images/Filter.png;https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3100;https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3200;https://www.advantageonlineshopping.com/catalog/fetchImage?image_id=3300;"
+Ending iteration 10.
+Starting iteration 11.
+Notify: Next row for parameter p_category = 11 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '11'.
+Notify: Next row for parameter p_product = 11 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '11'.
+Notify: Transaction "a01_home" started.
+t=00130484ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00165863ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 11 1]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2950 Wasted Time: 0.2860).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 11.
+Starting iteration 12.
+Notify: Next row for parameter p_category = 12 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '12'.
+Notify: Next row for parameter p_product = 12 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '12'.
+Notify: Transaction "a01_home" started.
+t=00166714ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00202094ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 12 2]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2970 Wasted Time: 0.2920).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 12.
+Starting iteration 13.
+Notify: Next row for parameter p_category = 13 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '13'.
+Notify: Next row for parameter p_product = 13 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '13'.
+Notify: Transaction "a01_home" started.
+t=00202916ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00238297ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 13 3]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2980 Wasted Time: 0.2930).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 13.
+Starting iteration 14.
+Notify: Next row for parameter p_category = 14 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '14'.
+Notify: Next row for parameter p_product = 14 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '14'.
+Notify: Transaction "a01_home" started.
+t=00239115ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00279436ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/css/main.min.css;https://www.advantageonlineshopping.com/css/images/Down_arrow.svg;https://www.advantageonlineshopping.com/vendor/requirejs/require.js;       Snapshot Info [MSH 14 4]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2940 Wasted Time: 0.3490).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/css/main.min.css;https://www.advantageonlineshopping.com/css/images/Down_arrow.svg;https://www.advantageonlineshopping.com/vendor/requirejs/require.js;"
+Ending iteration 14.
+Starting iteration 15.
+Notify: Next row for parameter p_category = 15 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '15'.
+Notify: Next row for parameter p_product = 15 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '15'.
+Notify: Transaction "a01_home" started.
+t=00280244ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00315697ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 15 5]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.3510 Wasted Time: 0.3110).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 15.
+Starting iteration 16.
+Notify: Next row for parameter p_category = 16 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '16'.
+Notify: Next row for parameter p_product = 16 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '16'.
+Notify: Transaction "a01_home" started.
+t=00316549ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00351927ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 16 6]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2960 Wasted Time: 0.2900).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 16.
+Starting iteration 17.
+Notify: Next row for parameter p_category = 17 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '17'.
+Notify: Next row for parameter p_product = 17 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '17'.
+Notify: Transaction "a01_home" started.
+t=00352739ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00388118ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 17 7]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2970 Wasted Time: 0.2870).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 17.
+Starting iteration 18.
+Notify: Next row for parameter p_category = 18 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '18'.
+Notify: Next row for parameter p_product = 18 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '18'.
+Notify: Transaction "a01_home" started.
+t=00388928ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00424323ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 18 8]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2920 Wasted Time: 0.2840).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 18.
+Starting iteration 19.
+Notify: Next row for parameter p_category = 19 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '19'.
+Notify: Next row for parameter p_product = 19 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '19'.
+Notify: Transaction "a01_home" started.
+t=00425150ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00460541ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 19 9]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2990 Wasted Time: 0.2930).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 19.
+Starting iteration 20.
+Notify: Next row for parameter p_category = 20 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '20'.
+Notify: Next row for parameter p_product = 20 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '20'.
+Notify: Transaction "a01_home" started.
+t=00461368ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00496750ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 20 10]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2930 Wasted Time: 0.2880).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 20.
+Starting iteration 21.
+Notify: Next row for parameter p_category = 21 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '21'.
+Notify: Next row for parameter p_product = 21 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '21'.
+Notify: Transaction "a01_home" started.
+t=00497597ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00532984ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 21 11]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2970 Wasted Time: 0.2900).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 21.
+Starting iteration 22.
+Notify: Next row for parameter p_category = 22 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '22'.
+Notify: Next row for parameter p_product = 22 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '22'.
+Notify: Transaction "a01_home" started.
+t=00533787ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00569176ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 22 12]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.3020 Wasted Time: 0.2910).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 22.
+Starting iteration 23.
+Notify: Next row for parameter p_category = 23 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '23'.
+Notify: Next row for parameter p_product = 23 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '23'.
+Notify: Transaction "a01_home" started.
+t=00569970ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00610318ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/css/main.min.css;https://www.advantageonlineshopping.com/css/images/Down_arrow.svg;https://www.advantageonlineshopping.com/vendor/requirejs/require.js;       Snapshot Info [MSH 23 13]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2950 Wasted Time: 0.3490).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/css/main.min.css;https://www.advantageonlineshopping.com/css/images/Down_arrow.svg;https://www.advantageonlineshopping.com/vendor/requirejs/require.js;"
+Ending iteration 23.
+Starting iteration 24.
+Notify: Next row for parameter p_category = 24 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '24'.
+Notify: Next row for parameter p_product = 24 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '24'.
+Notify: Transaction "a01_home" started.
+t=00631990ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00672446ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 24 14]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 40.3500 Wasted Time: 0.3200).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 24.
+Starting iteration 25.
+Notify: Next row for parameter p_category = 25 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '25'.
+Notify: Next row for parameter p_product = 25 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '25'.
+Notify: Transaction "a01_home" started.
+t=00673267ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00708644ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 25 15]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2930 Wasted Time: 0.2880).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 25.
+Starting iteration 26.
+Notify: Next row for parameter p_category = 26 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '26'.
+Notify: Next row for parameter p_product = 26 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '26'.
+Notify: Transaction "a01_home" started.
+t=00709476ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00744851ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 26 16]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2980 Wasted Time: 0.2870).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 26.
+Starting iteration 27.
+Notify: Next row for parameter p_category = 27 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '27'.
+Notify: Next row for parameter p_product = 27 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '27'.
+Notify: Transaction "a01_home" started.
+t=00745672ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00781071ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 27 17]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.3210 Wasted Time: 0.3120).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 27.
+Starting iteration 28.
+Notify: Next row for parameter p_category = 28 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '28'.
+Notify: Next row for parameter p_product = 28 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '28'.
+Notify: Transaction "a01_home" started.
+t=00781882ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00817262ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 28 18]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2940 Wasted Time: 0.2910).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 28.
+Starting iteration 29.
+Notify: Next row for parameter p_category = 29 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '29'.
+Notify: Next row for parameter p_product = 29 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '29'.
+Notify: Transaction "a01_home" started.
+t=00818112ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00853489ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 29 19]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2940 Wasted Time: 0.2870).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 29.
+Starting iteration 30.
+Notify: Next row for parameter p_category = 30 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '30'.
+Notify: Next row for parameter p_product = 30 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '30'.
+Notify: Transaction "a01_home" started.
+t=00854298ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00889678ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 30 20]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2960 Wasted Time: 0.2870).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 30.
+Starting iteration 31.
+Notify: Next row for parameter p_category = 31 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '31'.
+Notify: Next row for parameter p_product = 31 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '31'.
+Notify: Transaction "a01_home" started.
+t=00890509ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00925888ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 31 21]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2990 Wasted Time: 0.2940).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 31.
+Starting iteration 32.
+Notify: Next row for parameter p_category = 32 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '32'.
+Notify: Next row for parameter p_product = 32 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '32'.
+Notify: Transaction "a01_home" started.
+t=00926705ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00962085ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 32 22]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.2920 Wasted Time: 0.2850).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 32.
+Starting iteration 33.
+Notify: Next row for parameter p_category = 33 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '33'.
+Notify: Next row for parameter p_product = 33 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '33'.
+Notify: Transaction "a01_home" started.
+t=00962890ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00998273ms: Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;       Snapshot Info [MSH 33 23]    [MsgId: MERR-205177]
+Notify: Transaction "a01_home" ended with a "Fail" status (Duration: 35.3030 Wasted Time: 0.2930).
+Notify: Transaction "a01_home" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a01_home" is "Error -205177: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ failed - End event error due to network timeout. Open requests: https://www.advantageonlineshopping.com/#/;"
+Ending iteration 33.
+Starting iteration 34.
+Notify: Next row for parameter p_category = 34 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '34'.
+Notify: Next row for parameter p_product = 34 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '34'.
+Notify: Transaction "a01_home" started.
+t=00999084ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Stop" status (Duration: 14.4336).
+Action was aborted.
+Ending Vuser...
+Vuser Terminated.
+t=01015986ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" started.
+t=01016511ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=01036870ms: Error -205177: Step 2: Click on Category  failed - Target object was not found. Identification Method: JavaScript       Snapshot Info [MSH End 24]    [MsgId: MERR-205177]
+Notify: Transaction "a02_category" ended with a "Fail" status (Duration: 20.2770 Wasted Time: 0.1390).
+Notify: Transaction "a02_category" has 1 error message(s).
+Notify: The 1st error message associated with transaction "a02_category" is "Error -205177: Step 2: Click on Category  failed - Target object was not found. Identification Method: JavaScript"

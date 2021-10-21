@@ -1,0 +1,74 @@
+Virtual User Script started at : 2021-10-21 16:24:02
+TruClient Replay (build 0267) for LoadRunner Professional 2021.1.0, build 0351. OS: Windows 2019, Browser: Chromium 88.0.4324.150, initialized on 2021/10/21 at 16:23:55 (1634833435.650s)
+Selected Run-Time Settings:
+    Simulate a new user on each iteration...............: 1
+    NO proxy (direct connection to the Internet)
+    Check for newer versions of stored pages: 4 (Automatically)
+    Keep-Alive..........................................: 1
+    Proxy Keep-Alive....................................: 1
+    Keep-Alive timeout (ms).............................: 60000
+    HTTP Version........................................: 1.1
+    Proxy HTTP Version..................................: 1.1
+    DNS cache entries...................................: 20
+    Run-Time Settings file..............................: "C:\Users\demo\Documents\VuGen\Scripts\truclient_aos\\default.cfg"
+    Vuser directory.....................................: "C:\Users\demo\AppData\Local\Temp\TC\Temp\"
+    Vuser output directory..............................: "C:\Users\demo\AppData\Local\Temp\TC\Temp\"
+End of selected Run-Time Settings
+Please refer to the ReadMe file in the LoadRunner Professional installation directory for notes about measurements and logging
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "a01_home" started.
+t=00007951ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00009470ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 1.6690 Wasted Time: 0.4210).
+Notify: Transaction "a02_category" started.
+t=00010016ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00010016ms: Warning -205179: The TC.getParam API is deprecated because it is synchronous. Use the asynchronous API TCA.getParam instead. For details, see https://admhelp.microfocus.com/tc/en/2021.1.0/Content/TruClient/procedures/Async_API_Example.htm.    [MsgId: MWAR-205179]
+t=00013938ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 3.9680 Wasted Time: 0.7340).
+Notify: Transaction "a03_product" started.
+t=00014470ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 3 [table  = p_product].
+t=00016345ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 1.9050 Wasted Time: 0.8040).
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter p_category = 20 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '20'.
+Notify: Next row for parameter p_product = 20 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '20'.
+Notify: Transaction "a01_home" started.
+t=00017195ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00019400ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.2500 Wasted Time: 0.4920).
+Notify: Transaction "a02_category" started.
+t=00019939ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00022633ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.7320 Wasted Time: 0.5050).
+Notify: Transaction "a03_product" started.
+t=00023162ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 20 [table  = p_product].
+t=00024953ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 1.8200 Wasted Time: 0.6780).
+Ending iteration 2.
+Starting iteration 3.
+Notify: Next row for parameter p_category = 21 [table  = p_category].
+Notify: Getting new value for parameter 'p_category': table = 'browse.dat' column = '0' row = '21'.
+Notify: Next row for parameter p_product = 21 [table  = p_product].
+Notify: Getting new value for parameter 'p_product': table = 'browse.dat' column = '1' row = '21'.
+Notify: Transaction "a01_home" started.
+t=00025775ms: Step 1: Navigate to "https://www.advantageon...shopping.com/#/" started    [MsgId: MMSG-205180]
+t=00028219ms: Step 1: Navigate to https://www.advantageonlineshopping.com/#/ successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a01_home" ended with a "Pass" status (Duration: 2.4750 Wasted Time: 0.4920).
+Notify: Transaction "a02_category" started.
+t=00028752ms: Step 2: Click on Category  started    [MsgId: MMSG-205180]
+t=00031427ms: Step 2: Click on Category  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a02_category" ended with a "Pass" status (Duration: 2.7080 Wasted Time: 0.5340).
+Notify: Transaction "a03_product" started.
+t=00031957ms: Step 3: Click on Product  started    [MsgId: MMSG-205180]
+Notify: Next row for parameter p_product = 21 [table  = p_product].
+t=00033923ms: Step 3: Click on Product  successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+Notify: Transaction "a03_product" ended with a "Pass" status (Duration: 1.9970 Wasted Time: 0.6790).
+Ending iteration 3.
+Ending Vuser...
+Vuser Terminated.

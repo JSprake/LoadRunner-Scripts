@@ -1,0 +1,47 @@
+[06:06:06.10] Info: Running build Release_2021.0.0_2004 on windows
+[06:06:06.10] Info: DevWeb offline generator started with 'har' mode, 'pages' level.
+[06:06:06.10] Info: Generating script from 'C:\Users\demo\Downloads\nimbusserver.aos.com.har'.
+[06:06:06.10] Info: Using configuration file: C:\Program Files (x86)\Micro Focus\LoadRunner\bin\DevWeb\generator_config.yml.
+[06:06:06.13] Info: HAR file loaded, started parsing phase.
+[06:06:06.13] Info: Configured none resources list: [text/html text/xml text/plain application/json]
+[06:06:06.13] Info: Parsing done, loaded 21 steps from HAR.
+[06:06:06.13] Info: Configured headers to filter: [Host Content-Length Cookie]
+[06:06:06.13] Info: Configured hosts black list: [.*google.* .*bing.* .*geolocation.* .*gstatic.* .*firefox.*]
+[06:06:06.13] Info: Configured extensions to filter: [.ico]
+[06:06:06.14] Info: **********************************************
+[06:06:06.14] Info: WebRequest [Id: 1] GET 'http://nimbusserver.aos.com:8000/'
+[06:06:06.14] Info: **********************************************
+[06:06:06.14] Info: WebRequest [Id: 2] GET 'http://nimbusserver.aos.com:8000/services.properties'
+[06:06:06.14] Info: **********************************************
+[06:06:06.14] Info: WebRequest [Id: 3] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL'
+[06:06:06.14] Info: **********************************************
+[06:06:06.14] Info: WebRequest [Id: 4] POST 'http://nimbusserver.aos.com:8001//accountservice/ws/GetAccountConfigurationRequest'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 5] OPTIONS 'http://nimbusserver.aos.com:8001//accountservice/ws/GetAccountConfigurationRequest'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 6] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/categories'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 7] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/deals/search'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 8] GET 'http://nimbusserver.aos.com:8000/app/tempFiles/popularProducts.json'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 9] GET 'http://nimbusserver.aos.com:8000/app/views/home-page.html'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 10] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/categories/4/products'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 11] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/categories/attributes'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 12] GET 'http://nimbusserver.aos.com:8000/app/views/category-page.html'
+[06:06:06.15] Info: **********************************************
+[06:06:06.15] Info: WebRequest [Id: 13] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/categories/all_data'
+[06:06:06.16] Info: **********************************************
+[06:06:06.16] Info: WebRequest [Id: 14] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/products/25'
+[06:06:06.16] Info: **********************************************
+[06:06:06.16] Info: WebRequest [Id: 15] GET 'http://nimbusserver.aos.com:8002/catalog/api/v1/categories/4/products'
+[06:06:06.16] Info: **********************************************
+[06:06:06.16] Info: WebRequest [Id: 16] GET 'http://nimbusserver.aos.com:8000/app/views/product-page.html'
+[06:06:06.16] Info: Created 16 steps.
+[06:06:06.16] Info: scenario.yml already exists at 'C:\Users\demo\Documents\VuGen\Scripts\devweb_aos' and will not be updated.
+[06:06:06.17] Info: rts.yml already exists at 'C:\Users\demo\Documents\VuGen\Scripts\devweb_aos\rts.yml' and will not be updated.
+[06:06:06.17] Info: DevWeb script generated in folder 'C:\Users\demo\Documents\VuGen\Scripts\devweb_aos'.
+[06:06:06.18] Info: Save input file as C:\Users\demo\Documents\VuGen\Scripts\devweb_aos\codegen\codegen.har

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="devweb_aos" tests="4" failures="3">
+        <testcase name="Transaction Response Time: a01_home - average of 2401 ms, exceeded the defined amount of 600 ms" time="2.401">
+            <failure message="SLA &#34;Transaction Response Time&#34; failed." type="ERROR">Transaction a01_home, with an average of 2401 ms, exceeded the defined amount of 600 ms.</failure>
+        </testcase>
+        <testcase name="Transaction Response Time: a02_category - average of 2105 ms, exceeded the defined amount of 500 ms" time="2.105">
+            <failure message="SLA &#34;Transaction Response Time&#34; failed." type="ERROR">Transaction a02_category, with an average of 2105 ms, exceeded the defined amount of 500 ms.</failure>
+        </testcase>
+        <testcase name="Transaction Response Time: a03_product - average of 553 ms, exceeded the defined amount of 250 ms" time="0.553">
+            <failure message="SLA &#34;Transaction Response Time&#34; failed." type="ERROR">Transaction a03_product, with an average of 553 ms, exceeded the defined amount of 250 ms.</failure>
+        </testcase>
+        <testcase name="Percentage of Failed Transactions - 0% compared to the defined amount of 3%" systemOut="SLA &#34;Percentage of Failed Transactions&#34; passed.&#xA;The failing transactions ratio is 0%, compared to the defined amount of 3%."></testcase>
+    </testsuite>
+</testsuites>
